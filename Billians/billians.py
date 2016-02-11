@@ -9,8 +9,7 @@
 
 import arcpy, os, time, shutil
 
-workspace1 = arcpy.env.workspace = 'X:\\GIS\\GIS_Projects\\_Updates\\Billians\\monthlyDownloads'
-workspace = arcpy.env.workspace = 'Y:\\Data_Files\\Dynamic\\Billians\\HealthInfrastructure'
+workspace = arcpy.env.workspace = 'X:\\GIS\\GIS_Projects\\_Updates\\Billians\\monthlyDownloads'
 
 arcpy.env.overwriteOutput = True
 
